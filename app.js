@@ -1,5 +1,8 @@
-const fruits = ["oranges", "mangoes", "bananas", "apples"];
+export function addNumbers(nums = []) {
+  let sum = 0;
 
-for (const fruit of fruits) {
-  console.log(fruit);
+  for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+  }
+  return sum;
 }
