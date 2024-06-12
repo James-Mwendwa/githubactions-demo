@@ -3,6 +3,7 @@ export function addNumbers(nums = []) {
 
   for (let i = 0; i < nums.length; i++) {
     sum += nums[i];
+    throw new Error("fail");
   }
   return sum;
 }
