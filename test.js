@@ -1,6 +1,7 @@
 import { addNumbers } from "./app.js";
 import { expect } from "chai";
 
+//tests
 describe("addNumbers", function () {
   it("should return the sum of [20, 30, 10, 50] as 110", function () {
     expect(addNumbers([20, 30, 10, 50])).to.equal(110);
